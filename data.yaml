@@ -1,0 +1,13 @@
+train: C:\Users\sreet\OneDrive\Documents\Hope AI\16.Deep Learning\Face Mask .Yolo-V8\train\images
+val: C:\Users\sreet\OneDrive\Documents\Hope AI\16.Deep Learning\Face Mask .Yolo-V8\valid\images
+test: C:\Users\sreet\OneDrive\Documents\Hope AI\16.Deep Learning\Face Mask .Yolo-V8\test\images
+
+nc: 7
+names: ['cloth', 'kn95', 'mask_weared_incorrect', 'n95', 'surgical', 'with_mask', 'without_mask']
+
+roboflow:
+  workspace: project
+  project: face-mask-brija
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/project/face-mask-brija/dataset/1
